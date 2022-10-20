@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home{
+    background-image: url(../image/banner3.png);
+    height: 100vh;
+}
+.image{
+     width:auto; line-height: 50vh; border-radius: 50%; background-color: #8261ee; align-content: center; margin:5% 40% ;
+}
+.image:hover{
+    background-color: #ff589e; cursor: pointer;
+}
+.head{
+    font-weight: 500;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+.para1{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+.workimg{
+    width:auto;
+    margin-bottom: 15px;
+    margin:5% 40%
+    
+}
+.workhead{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.span{
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: .75px;
+}
+.minibox{
+    background: #fff;
+    text-align: center;
+ }
+/* .minibox:hover{
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+}  */
+.pricingbtn{
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.span2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background: #8261ee;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px
+}
+.span1{
+    background-color: #ff589e;
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px
+    
+}
+.header{
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.sp{
+    height: 47px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    position: relative;
+    top: -1px
+}
+.pr{
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+}
+.month{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.88px
+}
+.list{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    letter-spacing: 0.25px;
+    line-height: 4vh;
+}
+.secpara{
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px
+}
+.user{
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+}
+.userspan{
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+   
+
+}
+.stron{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 120px;
+}
+.spam{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px
+}
+.head5{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+}
+.head5:hover{
+    color: #ff589e;
+    
+}
+.para5{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 15px
+}
+.form-control{
+    padding:0.5rem 1.5rem;
+    border-radius: 1rem; 
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.mainbtn{
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #8261ee;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+
+}
+.mainbtn:hover{
+    background-color: #ff589e;
+}
